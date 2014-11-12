@@ -1,0 +1,1 @@
+/vagrant/discoslindallc/app/views/categories/edit.blade.php
