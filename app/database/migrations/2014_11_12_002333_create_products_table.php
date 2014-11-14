@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration {
 			$table->string('genre_id');
 			$table->string('img');
 			$table->string('name');
-			$table->string('description');
+			$table->text('description');
 			$table->string('catalog');
 			$table->string('barcode');
 			$table->timestamps();

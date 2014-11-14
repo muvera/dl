@@ -114,6 +114,9 @@ class ProductsController extends \BaseController {
 	public function destroy($id)
 	{
 		//
+			$product = Product::findOrFail($id);
+				$product->delete();
+				return Redirect::to('/products');
 	}
 
 		public function upload()

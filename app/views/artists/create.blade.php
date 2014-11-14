@@ -17,12 +17,6 @@
 </div>
 
 
-		<!-- Genre -->
-<div class="form-group">
-		{{ Form::label('genre', 'Genre:') }}
-		{{ Form::text('genre', null, ['class'=>'form-control']) }}
-</div>
-
 {{Form::submit()}}
 {{Form::close()}}
 

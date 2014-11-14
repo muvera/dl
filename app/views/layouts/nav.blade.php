@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Discos Linda LLC</a>
+          <a class="navbar-brand" href="/">D & O LLC</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

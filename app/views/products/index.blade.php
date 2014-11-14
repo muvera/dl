@@ -21,7 +21,8 @@
 
       <tr>
           <td>{{$product->id}}</td>
-          <td><img src="{{asset('uploads/albums/' . $product->id . '/' . $product->img)}}" class="thumbnail" width="100"> </td>
+          <td>{{$product->catalog}}<a href="{{route('products.show', $product->id)}}"><img src="{{asset('uploads/albums/' . $product->id . '/' . $product->img)}}" class="thumbnail" width="100"> </a></td>
+            
           <td>
 @include('include.form')
 </td>
